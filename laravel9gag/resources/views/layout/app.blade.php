@@ -44,8 +44,8 @@
         </div>
         <div class="right-header">
           <li><i class="fa fa-search"></i></li>
-          <li>Login</li>
-          <li class="SignUpBtn">Sign up</li>
+          <a href="#"><li>Login</li></a>
+          <a href="#"><li class="SignUpBtn">Sign up</li></a>
         </div>
       </div>
     </header>

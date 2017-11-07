@@ -115,6 +115,10 @@ body
   font-size: 14px;
   color: #AAAAAA;
 }
+.right-header a
+{
+  text-decoration: none;
+}
 .SignUpBtn
 {
   font-weight: bold;

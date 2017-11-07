@@ -1,0 +1,206 @@
+/*css reset*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+  min-height: 100vh;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* You can add global styles to this file, and also import other style files */
+/*global*/
+li{
+  list-style: none;
+}
+html
+{
+  font-family:sans-serif;
+}
+.bold
+{
+  font-weight: 600;
+}
+body
+{
+  padding-top: 50px;
+}
+/*header*/
+.header-container
+{
+  max-width: 1920px;
+  background: #000;
+  display: flex;
+  color: #AAA;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+.left-header
+{
+  flex:3;
+  display: flex;
+  padding:0 10px;
+}
+.logo
+{
+  height: 30px;
+  width: 42px;
+  background-image: url('/assets/developerimgs/header-logo.png');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: auto 0;
+}
+.mygif
+{
+  width: 120px;
+  height: 30px;
+  background-image: url('/assets/developerimgs/animatedGIF.gif');
+  background-size: cover;
+  background-position: center;
+  overflow:hidden;
+  margin: auto 0 auto 20px;
+}
+.categories
+{
+  display: flex;
+  border-right: 1px solid #2F2F33;
+}
+.categories li
+{
+  padding:7px 13px;
+}
+.categories a
+{
+  margin:auto;
+  text-decoration: none;
+  color: #AAA;
+  font-size: 14px;
+  font-weight: 700;
+}
+.categories a:hover,.types a:hover
+{
+  color: #fff;
+}
+.types
+{
+  display: flex;
+}
+.types a
+{
+  margin:auto;
+  text-decoration: none;
+  color: #AAA;
+  font-size: 14px;
+  white-space:nowrap;
+}
+.types li
+{
+  padding:7px 12px;
+  position: relative;
+}
+.types li h2
+{
+  position: absolute;
+  background:#00A256;
+  color: #fff;
+  font-size: 7px;
+  top:-5px;
+  right: -5px;
+  padding:2px;
+  border-radius:3px;
+}
+.right-header
+{
+  flex:1;
+  display: flex;
+  justify-content: flex-end;
+  padding:10px;
+}
+.right-header li
+{
+  padding:7px 14px;
+  border-radius: 3px;
+  margin:0 5px;
+  font-size: 14px;
+  color: #AAAAAA;
+}
+.right-header a
+{
+  text-decoration: none;
+}
+.SignUpBtn
+{
+  font-weight: bold;
+  background:#03a9f4;
+  color: #f3f3f3!important;
+}
+/*home*/
+.homepage-container
+{
+  height: 100vh;
+}
+
+.home-tags ul
+{
+  justify-content:space-between;
+  display: flex;
+  flex-wrap: nowrap;
+  white-space: nowrap;
+  overflow-x:scroll;
+  padding:15px;
+  text-align: center;
+}
+.home-tags ul li
+{
+  background: #000;
+  padding:10px 15px;
+  border-radius:40px;
+  min-width: 90px;
+  font-weight: 600;
+  font-size: 15px;
+}
+.home-tags ul a
+{
+  text-decoration: none;
+  color: #f3f3f3;
+  margin-left: 10px;
+}

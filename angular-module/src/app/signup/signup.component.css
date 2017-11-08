@@ -1,0 +1,87 @@
+.signup-container
+{
+  max-width: 455px;
+  height: 100vh;
+  margin:0 auto;
+  padding-top: 45px;
+}
+.big-signup-text
+{
+  font-size: 35px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.small-signup-parag
+{
+  font-size: 14px;
+  color: gray;
+  line-height: 23px;
+  margin-bottom: 20px;
+}
+.social-btns
+{
+  display: flex;
+  justify-content:space-between;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #e5e5e5;
+  margin-bottom:25px;
+}
+.socialbtn
+{
+  padding:none;
+  border-style: none;
+  font-weight: bold;
+  display: flex;
+  justify-content: space-around;
+  font-size: 20px;
+  color: #fff;
+  border-radius: 3px;
+  height: 60px;
+  width: 220px;
+}
+.facebook-btn
+{
+  background: #3B5998;
+}
+.facebook-btn i
+{
+  background:#355089;
+  flex:2;
+  font-size: 40px;
+  text-align: center;
+  padding-top: 10px;
+  border-top-left-radius: 2px;
+  border-bottom-left-radius: 2px;
+}
+.facebook-btn h1,.google-btn h1
+{
+  flex:5;
+  margin:auto;
+  text-align: center;
+}
+.google-btn
+{
+  background: #DC4D28;
+}
+.google-btn i
+{
+  background:#C64524;
+  flex:2;
+  font-size: 40px;
+  text-align: center;
+  padding-top: 10px;
+  border-top-left-radius: 2px;
+  border-bottom-left-radius: 2px;
+}
+.signup-email-login p
+{
+  font-size: 14px;
+  color: gray;
+  margin-bottom: 13px;
+}
+.signup-email-login p a
+{
+  font-weight: bold;
+  text-decoration: none;
+  color: #099CFF;
+}

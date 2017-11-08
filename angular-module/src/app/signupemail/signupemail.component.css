@@ -1,0 +1,49 @@
+.signup-email-container
+{
+  max-width: 455px;
+  height: 100vh;
+  margin:0 auto;
+  padding-top: 45px;
+}
+.big-email-member-text
+{
+  font-size: 36px;
+  font-weight: bold;
+}
+.email-member-form
+{
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+}
+.email-member-form label
+{
+  margin-bottom: 7px;
+  font-size: 14px;
+  font-weight: bold;
+}
+.email-member-form input
+{
+  margin-bottom: 23px;
+  height: 36px;
+  font-size: 14px;
+  border: 1px solid #e0e0e0;
+  border-radius: 2px;
+  padding: 0px 10px;
+  outline: none;
+}
+
+.signup-btn-submit button:hover
+{
+  background: #33ADFF;
+}
+.signup-btn-submit button
+{
+  padding:11px 16px;
+  border-radius: 2px;
+  border-style: none;
+  color: #fff;
+  background:#03a9f4;
+  font-weight:bold;
+  font-size: 14px;
+}
